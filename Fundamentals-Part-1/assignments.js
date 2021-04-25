@@ -45,4 +45,3 @@ console.log(description);
 //Strings and Template Literals
 const newDescription = `${country} is in ${continent} and its ${population} million People speaks ${language}`;
 console.log(newDescription);
-console.log();
