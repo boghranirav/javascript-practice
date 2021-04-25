@@ -1,3 +1,4 @@
+/*
 //Values and Variables
 
 let country = 'India';
@@ -17,5 +18,14 @@ console.log(typeof isIsland);
 console.log(typeof country);
 console.log(typeof population);
 console.log(typeof language);
+*/
+// let, const and var
+
+language = 'Gujarati';
+const country = 'India';
+const continent = 'Asia';
+const isIsland = false;
+//isIsland = true;
+
 
 
