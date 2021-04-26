@@ -26,7 +26,7 @@ const country = 'India';
 const continent = 'Asia';
 const isIsland = false;
 //isIsland = true;
-*/
+
 
 // Basic Operators
 const country = 'India';
@@ -45,3 +45,17 @@ console.log(description);
 //Strings and Template Literals
 const newDescription = `${country} is in ${continent} and its ${population} million People speaks ${language}`;
 console.log(newDescription);
+*/
+
+//Logical Operators
+const country = 'India';
+const population = '130';
+const isIand = false;
+const language = 'Hindi';
+
+if (language === 'English' && !isIand && population < 50) {
+    console.log(`You should live in ${country}`);
+}
+else {
+    console.log(`${country} does not meet your criteria.`);
+}
