@@ -60,3 +60,18 @@ percentageOfWorld3(populations[1]),
 percentageOfWorld3(populations[2])];
 
 console.log(percentages);
+
+const neighbours = ['Pakistan', 'Nepal', 'China'];
+
+console.log(neighbours);
+neighbours.push('Utopia');
+console.log(neighbours);
+neighbours.pop();
+console.log(neighbours);
+
+if (!neighbours.includes('Germany')) {
+    console.log('Probably not a central European country.');
+}
+
+neighbours[neighbours.indexOf('China')] = 'China 1';
+console.log(neighbours);
