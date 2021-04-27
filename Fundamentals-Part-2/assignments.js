@@ -48,3 +48,15 @@ describePopulation('India', '1390');
 describePopulation('China', '1290');
 describePopulation('New Zealand', '5.56'); */
 
+// Introduction to Arrays
+
+let populations = [1300, 123, 44];
+
+console.log(populations.length >= 4 ? true : false);
+
+const percentageOfWorld3 = population => (population / 7900) * 100;
+let percentages = [percentageOfWorld3(populations[0]),
+percentageOfWorld3(populations[1]),
+percentageOfWorld3(populations[2])];
+
+console.log(percentages);
