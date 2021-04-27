@@ -50,7 +50,7 @@ describePopulation('New Zealand', '5.56'); */
 
 // Introduction to Arrays
 
-let populations = [1300, 123, 44];
+/* let populations = [1300, 123, 44];
 
 console.log(populations.length >= 4 ? true : false);
 
@@ -75,3 +75,4 @@ if (!neighbours.includes('Germany')) {
 
 neighbours[neighbours.indexOf('China')] = 'China 1';
 console.log(neighbours);
+ */
