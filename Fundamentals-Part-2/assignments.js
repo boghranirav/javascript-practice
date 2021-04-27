@@ -1,4 +1,4 @@
-'use strict'
+"use strict";
 
 // Functions
 
@@ -13,15 +13,22 @@
 
 //Function Declarations vs. Expressions
 
-function percentageOfWorld1(population) {
-    return (population / 7900) * 100;
-}
+// function percentageOfWorld1(population) {
+//     return (population / 7900) * 100;
+// }
 
-console.log('India : ' + percentageOfWorld1(1300));
+// console.log('India : ' + percentageOfWorld1(1300));
 
-const percentageOfWorld2 = function (population) {
-    return (population / 7900) * 100;
-}
+// const percentageOfWorld2 = function (population) {
+//     return (population / 7900) * 100;
+// }
 
-console.log(`New Zealand : ${percentageOfWorld2(5.5)}`)
-console.log(`China : ${percentageOfWorld2(1441)}`)
+// console.log(`New Zealand : ${percentageOfWorld2(5.5)}`)
+// console.log(`China : ${percentageOfWorld2(1441)}`)
+
+// Arrow Functions
+
+const percentageOfWorld3 = population => (population / 7900) * 100;
+
+console.log(`India : ${percentageOfWorld3(1300)}`);
+console.log(`Canada : ${percentageOfWorld3(590)}`)
