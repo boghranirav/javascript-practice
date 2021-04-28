@@ -76,3 +76,17 @@ if (!neighbours.includes('Germany')) {
 neighbours[neighbours.indexOf('China')] = 'China 1';
 console.log(neighbours);
  */
+
+//For Loop
+
+// for (let vote = 1; vote <= 50; vote++) {
+//     console.log(`Voter number ${vote} is currently voting`);
+// }
+
+const listOfNeighbours = [['Canada', 'Mexico'], ['Spain'], ['Norway', 'Sweden', 'Russia']];
+
+for (let i = 0; i < listOfNeighbours.length; i++) {
+    for (let j = 0; j < listOfNeighbours[i].length; j++) {
+        console.log(listOfNeighbours[i][j]);
+    }
+}
